@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        .image-container {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          background-image: url(/internalbd.jpeg);
+          /* background-repeat: no-repeat; */
+          background-size:cover;
+          background-position: center;
+         
+
+        }
+        .image img{
+          border-radius: 15%;
+          
+        }
+      
+        .image-container .image {
+          width: 30%; /* Adjust as needed */
+          margin-bottom: 20px;
+          position: relative;
+          overflow: hidden;
+        }
+      
+        .image-container .image img {
+          width: 300px;
+          height: 200px;
+          
+        }
+      
+        .image-container .image:before {
+          content: "";
+          display: block;
+          padding-top: 20%; /* 1:1 aspect ratio */
+        }
+        
+      </style>
+    <link rel="stylesheet" href="./clone.css">
+</head>
+<body >
+  <nav class="navbar">
+    <div class="imglogo">
+        <img src="./logoimg.jpg" height="70px" width="80px">
+    </div>
+    <div class="search-container">
+        <input type="text" placeholder="What are you looking for.." class="search-bar">
+        <button type="submit" class="search-button">Search</button>
+      </div>
+        <ul>
+            <li><a href="./cloneproject.html">Home</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./about.html">about</a></li>
+        </ul>  
+    </nav>
+    <div class="image-container">
+        <div class="image">
+          <img src="./makeup home image.jpg" alt="Image 1" >
+          <h3>MAKEUP KITS</h3>
+          <a href="" class="btn">see more</a>
+        </div>
+        <div class="image">
+          <img src="./skincarecombo.jpeg" alt="Image 2" height="20%">
+          <h3>SKINCARE COMBOS</h3>
+          <a href="" class="btn">see more</a>
+        </div>
+        <div class="image">
+          <img src="./lipsticksssss.jpeg" alt="Image 3">
+          <h3>LIPSTICKS</h3>
+          <a href="" class="btn">see more</a>
+        </div>
+        <div class="image">
+            <img src="./hairrcombo.jpg" alt="Image 4" height="20%">
+            <h3>HAIRCARE COMBOS</h3>
+            <a href="" class="btn">see more</a>
+          </div>
+          <div class="image">
+            <img src="./perfumes.jpg" alt="Image 5">
+            <h3>PERFUMES</h3>
+            <a href="" class="btn">see more</a>
+          </div>
+          <div class="image">
+            <img src="./serums.jpg" alt="Image 6">
+            <h3>FACIAL SERUMS</h3>
+            <a href="" class="btn">see more</a>
+          </div>
+    </div>
+</body>
+</html>

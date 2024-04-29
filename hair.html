@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        .image-container {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          background-image: url(/internalbd.jpeg);
+          /* background-repeat: no-repeat; */
+          background-size:cover;
+          background-position: center;
+         
+
+        }
+        .image img{
+          border-radius: 15%;
+
+        }
+      
+        .image-container .image {
+          width: 30%; /* Adjust as needed */
+          margin-bottom: 20px;
+          position: relative;
+          overflow: hidden;
+        }
+      
+        .image-container .image img {
+          width: 250px;
+          height: 250px;
+        }
+      
+        .image-container .image:before {
+          content: "";
+          display: block;
+          padding-top: 20%; /* 1:1 aspect ratio */
+        }
+        
+      </style>
+      
+    <link rel="stylesheet" href="./clone.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="imglogo">
+        <img src="./logoimg.jpg" height="70px" width="80px">
+    </div>
+    <div class="search-container">
+        <input type="text" placeholder="What are you looking for.." class="search-bar">
+        <button type="submit" class="search-button">Search</button>
+      </div>
+        <ul>
+            <li><a href="./cloneproject.html">Home</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./about.html">about</a></li>
+        </ul>  
+    </nav>
+    
+    <div class="image-container">
+        <div class="image">
+          <img src="./hair4.jpeg" alt="Image 1">
+          <h4>hair serum</h4><br>
+            <h3>MRP:300/-</h3>
+          <a href="" class="btn">Buy now</a>
+        </div>
+        <div class="image">
+          <img src="./hairimg.webp" alt="Image 2">
+          <h4>hair shampoo</h4><br>
+            <h3>MRP:600/-</h3>
+          <a href="" class="btn">Buy now</a>
+        </div>
+        <div class="image">
+          <img src="./hairoil.webp" alt="Image 3">
+           <h4>conditioner</h4><br>
+            <h3>MRP:800/-</h3>
+          <a href="" class="btn">Buy now</a>
+        </div>
+        <div class="image">
+            <img src="./hairoil2.webp" alt="Image 4">
+            <h4>hair oil</h4><br>
+            <h3>MRP:500/-</h3>
+          <a href="" class="btn">Buy now</a>
+          </div>
+          <div class="image">
+            <img src="./hairpro.webp" alt="Image 5">
+            <h4>hair gel</h4><br>
+            <h3>MRP:300/-</h3>
+          <a href="" class="btn">Buy now</a>
+          </div>
+          <div class="image">
+            <img src="./hairserum.jpeg" alt="Image 6">
+            <h4>hair serum</h4><br>
+            <h3>MRP:350/-</h3>
+          <a href="" class="btn">Buy now</a>
+          </div>
+          <div class="image">
+            <img src="./hairserum.webp" alt="Image 7">
+            <h4>conditioner</h4><br>
+            <h3>MRP:800/-</h3>
+          <a href="" class="btn">Buy now</a>
+          </div>
+        <!-- Add more images as needed -->
+      </div>
+      
+</body>
+</html>

@@ -1,0 +1,131 @@
+/* nav{
+  background-color: lightpink;
+  height:50px;
+  text-align: justify;
+  display:flex;
+  justify-content: space-between;
+  padding-right: 50px;
+  padding-left: 100px;
+} */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+  
+  background-color: lightpink;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.logo {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.search-container {
+  display: flex;
+}
+
+.search-bar {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-button {
+  padding: 8px 15px;
+  background-color: rgb(246, 42, 76);
+  color: white;
+  border: 1px solid pink;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: rgb(211, 80, 80);
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  height:8vh;
+  align-items: center;
+}
+ol{
+  list-style-type: none;
+}
+ul a{ 
+  font-size: 20px;
+  color: rgb(2, 1, 1);
+  text-decoration: none;
+}
+li{
+  margin-left: 10px;
+}
+a:hover{
+  color: rgb(240, 20, 57);
+  text-decoration:underline;
+}
+section {
+  padding: 50px 0;
+  text-align: center;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 20px;
+  border-radius:5%
+}
+.btn:hover {
+  background-color: burlywood;
+}
+.product {
+  margin: 20px;
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+.product img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.image{
+  height:auto;
+  border-radius: 2px;
+  color: plum;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  bottom: 0;
+  width: 100%;
+}
+h3{
+  color:black;
+ 
+}
+h4{
+  color:black;
+  font-style: italic;
+  font-weight: lighter;
+}
